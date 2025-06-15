@@ -16,13 +16,12 @@ include = [
     "src/*",
     "doc/*",
 ]
-categories = ["multimedia", "multimedia::audio", "text-processing"]
+categories = ["computer-vision"]
 keywords = [
-    "azure-speech",
-    "sdk",
-    "cognitive",
-    "recognition",
-    "synthesizing"
+    "moondream",
+    "moondream-ai",
+    "vision",
+    "spatial",
 ]
 
 [dependencies]
