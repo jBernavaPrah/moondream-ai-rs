@@ -1,0 +1,22 @@
+[package]
+name = "moondream"
+version = "0.1.0"
+edition = "2024"
+publish = true
+
+[dependencies]
+tracing = "^0.1"
+serde = { version = "^1.0", features = ["derive"] }
+serde_json = "^1.0"
+derive-new = "^0.7"
+derive_setters = "^0.1"
+thiserror = "^2.0"
+reqwest = { version = "^0.12", features = ["default", "json"] }
+
+[dev-dependencies]
+tokio = { version = "^1.17", features = ["full"] }
+image = "^0"
+tracing-subscriber = "^0"
+dotenv = "^0"
+base64 = "^0"
+wiremock = "^0.6"
